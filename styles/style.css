@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+    font-family: Poppins, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    padding-top: 10px;
+    padding-left: 5%;
+    max-width: 1197px;
+    margin: auto;
+}
+.header-wrapper{
+    display: flex;
+    position: relative;
+    padding-top: 13px;
+    gap: 30px;
+    flex-direction: flex-end;
+    
+    
+}
+.form{
+    position: relative;
+    /* background-color:  rgba(255, 255, 255, 0.1); */
+    border-radius: 10px;
+    margin-left: 36px;
+    
+}
+ .input{
+    width: 384px;
+    height: 50px;
+    border-radius: 10px;
+    /* opacity: 0.50; */
+    border: none;
+    padding-top: 5px;
+    padding-left: 35px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 14px;
+ }
+ .input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+ }
+ .search-inp{
+    position: absolute;
+    left: 5px;
+    top: 15px;
+    width:20px;
+    height: 20px;
+ }
+ .nav-logo{
+    display: flex;
+    align-items: center;
+ }
+ul{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+.nav-btn{
+    width: 171px;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    color: white;
+    margin-left: 40px;
+    transition: all 1s;
+    
+}
+.nav-btn-wrap{
+    display: none;
+    width: 171px;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    color: white;
+    margin-left: 40px;
+    transition: all 1s;
+}
+li>a{
+    text-decoration: none;
+    color: white;
+}
+.nav-btn:hover{
+    color: #671AE4;
+    background: white;
+    /* border: 1px solid #671AE4; */
+}
+.li-link{
+    transition: 0.60s;
+}
+.li-link:hover{
+    color: #671AE4;
+}
+.header-right,.header-left{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.start-info{
+    margin-top: 100px;
+    display: flex;
+    gap: 150px;
+}
+.info-title{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.info-subtitle{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 15px;
+    
+}
+.info-photo>img{
+    width: 591px;
+    height: 517px;
+}
+.info-photo{
+    margin-left: 45px;
+}
+.info-btn{
+    color: white;
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    width: 161px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    transition: all 1s;
+    margin-top: 40px;
+}
+.info-btn:hover{
+    background: white;
+    border: 1px solid #671AE4;
+    color: #671AE4;
+}
+.info-sell-btn{
+    width: 117px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 23px;
+    transition: all 1s;
+}
+.info-sell-btn:hover{
+    color: #671AE4;
+    background-color: white;
+}
+
+
+.info-stats{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.stats-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+.stats-span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.stats-span-sml{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 11px;
+}
+.menu{
+    display: none;
+}
+
+
+/* second section */
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+.logos img{
+    max-width: 266px;
+}
+.second-sec{
+    margin-top: 100px;
+}
+.text-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.txt{
+    width: 450px;
+}
+.text-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.text-sub{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+.main-card{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    transition:0.5s ease-in-out;
+}
+.card-text{
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+.card img{
+    border-radius: 10px;
+}
+.left p{
+    color:rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.left h3, .right h3{
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.right p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+}
+.card-btn button{
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    border: none;
+    padding: 10px, 20px, 10px, 20px;
+    width: 337px;
+    height: 50px;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    transition: 0.60s;
+}
+.main-card:hover{
+    transform: scale(1.02);
+    background-color: gray;
+    button{
+        background:transparent;
+        border: 1px solid #671AE4;
+        color: #671AE4;
+    }
+}
+.card-btn button:hover{
+    background: white;
+    color: #671AE4;
+
+}
+
+
+/* third section */
+.bot-text h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 72px;
+    color: white;
+    text-align: center;
+}
+.bot-text p{
+    color:  rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    
+}
+.bot-title{
+    width: 450px;
+}
+.bot-text{
+    display: flex;
+    justify-content: center;
+}
+.nav-inputs{
+    display: grid;
+    grid-template-columns: 580px 580px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+.nav-inputs input{
+    width: 100%;
+    opacity: 1;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--color-white);
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+.nav-container-input{
+    position: relative;
+}
+
+.input-plus{
+    position: absolute;
+    bottom: 13px;
+    right: 1px;
+}
+
+
+/* four section */
+.footer-div{
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    border-radius:10px ;
+    max-width: 1197px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-div h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 75px;
+    max-width: 500px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+.footer-div button{
+    width: 155px;
+    height: 50px;
+    color: white;
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: 0.60s ;
+}
+.footer-div button:hover{
+    background-color: white;
+    color: #671AE4;
+    border: 1px solid #671AE4;
+}

@@ -1,0 +1,93 @@
+@media (max-width: 1300px){
+    .header-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        margin-left: 20px;
+    }
+    .info-photo{
+        display: none;
+    }
+    .info-stats{
+        display: flex;
+        justify-content: start;
+        gap: 50px;
+    }
+    .info-title{
+        width: 590px;
+    }
+    .logos{
+       
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cards{
+        display: flex;
+        overflow-x: scroll;
+        z-index: 0;
+    }
+    .nav-inputs{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+@media (max-width: 1200px){
+    .footer-div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:636px){
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+ @media (max-width: 634px){
+    .form{
+        display: none;
+        
+    }
+    .header-right{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column; 
+        margin-left: 0px;
+    }
+    ul{
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+    .nav-btn{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .info-stats{
+        gap: 20px;
+    }
+    .info-title h1{
+        font-size: 40px;
+    }
+    .info-sell-btn{
+        margin-left: 10px;
+    }
+    .start-info{
+        margin-top: 20px;
+    }
+    .right-btn{
+        display: none;
+    }
+    .nav-btn-wrap{
+        display: block;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+ }
